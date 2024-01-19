@@ -1,0 +1,19 @@
+.header {
+  padding: 15px 0;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.headerWrapper {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .headerWrapper {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,57 @@
+/* MyForm.css */
+
+.form {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nameWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+/* Style for File Input */
+.formGroup .uploadBtnWrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.formGroup .uploadBtnWrapper .btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.formGroup .uploadBtnWrapper .fileInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.formGroup .displayImage {
+  margin-top: 10px;
+}
+
+.formGroup .displayImage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}

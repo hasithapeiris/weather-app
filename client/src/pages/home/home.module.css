@@ -1,0 +1,68 @@
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  height: 300px;
+  background-image: url("../../assets/bg.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerImage {
+  width: 100%;
+}
+
+.home {
+  padding: 70px 0 100px 0;
+}
+
+.homeWrapper {
+  max-width: 70%;
+  margin: auto;
+}
+
+.weather {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.search {
+  width: 50%;
+}
+
+.currentWeather {
+  flex: 2;
+}
+
+.forecast {
+  flex: 3;
+}
+
+@media (max-width: 768px) {
+  .homeWrapper {
+    max-width: 90%;
+  }
+  .search {
+    width: 90%;
+  }
+  .weather {
+    flex-direction: column;
+  }
+  .currentWeather {
+    width: 100%;
+  }
+
+  .forecast {
+    width: 100%;
+  }
+}
